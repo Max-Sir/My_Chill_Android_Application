@@ -10,4 +10,9 @@
     <string name="send_by_default_service">отправить через приложение по умолчанию?</string>
     <string name="mark_as_Copied">Успешно скопираванно в Буфер обмена</string>
     <string name="copiedSucceededText">Текст скопирован успешно</string>
+    <string name="switch_to_timer">Включить секундомер</string>
+    <string name="nullStopwatch">00:00:00</string>
+    <string name="start">старт</string>
+    <string name="stop">пауза</string>
+    <string name="reset">рестарт</string>
 </resources>

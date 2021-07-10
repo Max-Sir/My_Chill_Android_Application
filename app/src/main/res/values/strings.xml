@@ -9,4 +9,9 @@
     <string name="send_by_default_service">send by default service?</string>
     <string name="mark_as_Copied">\nSuccessfully Copied To Clipboard</string>
     <string name="copiedSucceededText">Copied Text Succeeded</string>
+    <string name="switch_to_timer">Switch to Stopwatch</string>
+    <string name="nullStopwatch">00:00:00</string>
+    <string name="start">start</string>
+    <string name="stop">pause</string>
+    <string name="reset">reset</string>
 </resources>

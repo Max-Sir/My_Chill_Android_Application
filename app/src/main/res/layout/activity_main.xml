@@ -5,9 +5,11 @@
     android:background="#C81CE6CB"
     android:orientation="vertical"
     android:paddingLeft="16dp"
+    android:id="@+id/LLMain"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
+    android:onClick="changeBackgroundColor"
     tools:context=".MainActivity">
 
     <TextView
@@ -40,4 +42,16 @@
         android:background="#AEAEEA00"
         android:entries="@array/itemsforSpinner"
         android:foregroundTint="#974040" />
+
+    <Button
+        android:id="@+id/buttonTimerSwitch"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28sp"
+        android:layout_marginTop="100sp"
+        android:autoSizeTextType="uniform"
+        android:rotationY="8"
+        android:onClick="goToStopwatchOnClick"
+        android:text="@string/switch_to_timer"
+        android:textSize="24sp" />
 </LinearLayout>

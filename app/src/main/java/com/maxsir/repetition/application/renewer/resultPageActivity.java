@@ -45,6 +45,7 @@ public class resultPageActivity extends AppCompatActivity {
         clipboard.setPrimaryClip(clip);
     }
 
+
     public void SendByMessangerOnClick(View view) {
         CheckBox checkBox=(CheckBox) findViewById(R.id.checkBoxResultSender);
         CheckBox checkBoxService=(CheckBox) findViewById(R.id.checkBox2);

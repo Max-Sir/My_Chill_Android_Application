@@ -4,4 +4,8 @@
     <string name="shareText">Share via which messenger??? …</string>
     <string name="mark_as_Copied">\nSuccessfully Copied To Clipboard</string>
     <string name="copiedSucceededText">Copied Text Succeeded</string>
+    <string name="switch_to_timer">Switch to Stopwatch</string>
+    <string name="nullStopwatch">00:00:00</string>
+    <string name="stop">pause</string>
+    <string name="reset">reset</string>
 </resources>
