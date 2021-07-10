@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemsforSpinner">
+        <item>Hello</item>
+        <item>World</item>
+        <item>Max</item>
+        <item>Sir</item>
+        <item>birth 25.10.2001</item>
+    </string-array>
+</resources>

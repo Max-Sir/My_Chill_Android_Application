@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My repetition Foundation Application</string>
+    <string name="text1">Hello World</string>
+    <string name="btn1">Click here</string>
+    <string name="button_text">Click Here to Share</string>
+    <string name="checkBoxResultSender">Copy and Share?</string>
+    <string name="textViewResultAct">No Data Recieved</string>
+    <string name="shareText">Share via which messenger??? ...</string>
+</resources>

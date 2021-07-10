@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C81CE6CB"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:onClick="onClickSwitchPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="@string/btn1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/text1clr"
+        android:onClick="doSomething"
+        android:rotation="-8"
+        android:rotationX="12"
+        android:rotationY="12"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/color"
+        android:layout_width="250sp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:background="#AEAEEA00"
+        android:entries="@array/itemsforSpinner"
+        android:foregroundTint="#974040" />
+</LinearLayout>
