@@ -35,12 +35,12 @@ public class resultPageActivity extends AppCompatActivity {
         tv.setText(string);
         copy(tv,string);
         receivedTextByIntent=string;
-        tv.setText(tv.getText().toString()+"\nSuccessfully Copied To Clipboard");
+        tv.setText(tv.getText().toString()+getString(R.string.mark_as_Copied));
     }
 
     public void copy(TextView tv, String result){
         ClipboardManager clipboard=(ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-        ClipData clip=ClipData.newPlainText("Copied Text Succeeded",result);
+        ClipData clip=ClipData.newPlainText(getString(R.string.copiedSucceededText),result);
         tv.setText(result);
         clipboard.setPrimaryClip(clip);
     }

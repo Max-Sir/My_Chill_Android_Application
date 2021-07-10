@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моё приложение - основа повторения</string>
+    <string name="text1">Привет Мир!!!</string>
+    <string name="btn1">Нажмите здесь</string>
+    <string name="button_text">Поделиться</string>
+    <string name="checkBoxResultSender">Скопировать и поделиться?</string>
+    <string name="textViewResultAct">Нет полученной информации</string>
+    <string name="shareText">Выберите приложение для отправки/передачи текста</string>
+    <string name="send_by_default_service">отправить через приложение по умолчанию?</string>
+    <string name="mark_as_Copied">Успешно скопираванно в Буфер обмена</string>
+    <string name="copiedSucceededText">Текст скопирован успешно</string>
+</resources>

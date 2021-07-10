@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="text1">Hello World</string>
-    <string name="shareText">Share via which messenger??? ...</string>
+    <string name="shareText">Share via which messenger??? …</string>
+    <string name="mark_as_Copied">\nSuccessfully Copied To Clipboard</string>
+    <string name="copiedSucceededText">Copied Text Succeeded</string>
 </resources>

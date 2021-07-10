@@ -7,4 +7,6 @@
     <string name="textViewResultAct">No Data Received</string>
     <string name="shareText">Share via which messenger??? …</string>
     <string name="send_by_default_service">send by default service?</string>
+    <string name="mark_as_Copied">\nSuccessfully Copied To Clipboard</string>
+    <string name="copiedSucceededText">Copied Text Succeeded</string>
 </resources>
