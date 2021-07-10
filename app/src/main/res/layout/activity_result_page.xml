@@ -20,31 +20,50 @@
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.531" />
 
     <TextView
         android:id="@+id/textViewResultPageSender"
-        android:layout_width="125dp"
-        android:layout_height="19dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="204dp"
+        android:layout_height="59dp"
         android:allowUndo="false"
+
         android:background="#BAAEEA00"
         android:text="@string/textViewResultAct"
         android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxResultSender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
 
     <CheckBox
         android:id="@+id/checkBoxResultSender"
         android:layout_width="wrap_content"
+        android:onClick="stateChanged"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
-        android:checked="true"
+        android:checked="@bool/choice1"
         android:text="@string/checkBoxResultSender"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.316" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="202dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:checked="@bool/choice2"
+        android:text="@string/send_by_default_service"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxResultSender"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

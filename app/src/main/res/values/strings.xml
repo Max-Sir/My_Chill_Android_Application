@@ -4,6 +4,7 @@
     <string name="btn1">Click here</string>
     <string name="button_text">Click Here to Share</string>
     <string name="checkBoxResultSender">Copy and Share?</string>
-    <string name="textViewResultAct">No Data Recieved</string>
-    <string name="shareText">Share via which messenger??? ...</string>
+    <string name="textViewResultAct">No Data Received</string>
+    <string name="shareText">Share via which messenger??? …</string>
+    <string name="send_by_default_service">send by default service?</string>
 </resources>
