@@ -32,7 +32,11 @@ public class TimerActivity extends AppCompatActivity {
         return running;
     }
     public void onStart(View view) {
+        if(running==true){
+            return;
+        }
         running=true;
+        handler.removeCallbacksAndMessages(null);
         runTimerService();
     }
 
