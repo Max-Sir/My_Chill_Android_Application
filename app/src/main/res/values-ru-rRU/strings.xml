@@ -15,4 +15,5 @@
     <string name="start">старт</string>
     <string name="stop">пауза</string>
     <string name="reset">рестарт</string>
+    <string name="resume">продолжить</string>
 </resources>
