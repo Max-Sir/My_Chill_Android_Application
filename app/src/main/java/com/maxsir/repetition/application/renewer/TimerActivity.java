@@ -3,7 +3,7 @@ package com.maxsir.repetition.application.renewer;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.app.Instrumentation;
+//import android.app.Instrumentation;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
